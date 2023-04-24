@@ -1,0 +1,82 @@
+.card-container {
+    min-width: 450px;
+    background-color: #16161a;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: all 300ms ease;
+    box-shadow: 13px 10px 10px  rgba(255, 255, 255, 0.025);
+    color: white;
+
+}
+
+.card-container:hover {
+    box-shadow: none;
+}
+
+.card-container img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.card-icon-home {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #2cb67d;
+}
+
+.card-icon-home span{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 50px;  
+}
+
+
+
+.card-icon-message {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #f25f4c;
+}
+
+.card-icon-message span{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 50px;  
+}
+
+
+.card-icon-group {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #ff8906;
+}
+
+.card-icon-group span{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 50px;  
+}
